@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183053022BBFCB42009F961D /* AllApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183053012BBFCB42009F961D /* AllApps.swift */; };
+		183053042BC1693D009F961D /* DarkMode+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183053032BC1693D009F961D /* DarkMode+Helpers.swift */; };
 		18947EF02BBAF007008E50B8 /* iOS_FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18947EEF2BBAF007008E50B8 /* iOS_FinalApp.swift */; };
 		18947EF22BBAF007008E50B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18947EF12BBAF007008E50B8 /* ContentView.swift */; };
 		18947EF42BBAF008008E50B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18947EF32BBAF008008E50B8 /* Assets.xcassets */; };
 		18947EF72BBAF008008E50B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18947EF62BBAF008008E50B8 /* Preview Assets.xcassets */; };
+		18947F1C2BBAF14C008E50B8 /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18947F1B2BBAF14C008E50B8 /* IntroScreen.swift */; };
+		18947F202BBAF52B008E50B8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18947F1F2BBAF52B008E50B8 /* Constants.swift */; };
+		18947F222BBAFC05008E50B8 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18947F212BBAFC05008E50B8 /* Tab.swift */; };
+		18947F252BBBD13F008E50B8 /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18947F242BBBD13F008E50B8 /* Recents.swift */; };
+		18947F272BBBD14B008E50B8 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18947F262BBBD14B008E50B8 /* Search.swift */; };
+		18947F292BBBD157008E50B8 /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18947F282BBBD157008E50B8 /* Graphs.swift */; };
+		18947F2B2BBBD167008E50B8 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18947F2A2BBBD167008E50B8 /* Settings.swift */; };
+		18947F2D2BBBD4B0008E50B8 /* View+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18947F2C2BBBD4B0008E50B8 /* View+Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183053012BBFCB42009F961D /* AllApps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllApps.swift; sourceTree = "<group>"; };
+		183053032BC1693D009F961D /* DarkMode+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DarkMode+Helpers.swift"; sourceTree = "<group>"; };
 		18947EEC2BBAF007008E50B8 /* iOS_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18947EEF2BBAF007008E50B8 /* iOS_FinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_FinalApp.swift; sourceTree = "<group>"; };
 		18947EF12BBAF007008E50B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18947EF32BBAF008008E50B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18947EF62BBAF008008E50B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18947F1B2BBAF14C008E50B8 /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		18947F1F2BBAF52B008E50B8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18947F212BBAFC05008E50B8 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		18947F242BBBD13F008E50B8 /* Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		18947F262BBBD14B008E50B8 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		18947F282BBBD157008E50B8 /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
+		18947F2A2BBBD167008E50B8 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		18947F2C2BBBD4B0008E50B8 /* View+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extentions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,9 @@
 		18947EEE2BBAF007008E50B8 /* iOS_Final */ = {
 			isa = PBXGroup;
 			children = (
+				18947F1E2BBAF508008E50B8 /* Helpers */,
+				18947F1A2BBAF130008E50B8 /* Model */,
+				18947F192BBAF12B008E50B8 /* View */,
 				18947EEF2BBAF007008E50B8 /* iOS_FinalApp.swift */,
 				18947EF12BBAF007008E50B8 /* ContentView.swift */,
 				18947EF32BBAF008008E50B8 /* Assets.xcassets */,
@@ -65,6 +88,45 @@
 				18947EF62BBAF008008E50B8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18947F192BBAF12B008E50B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18947F232BBBD12F008E50B8 /* TabView */,
+				18947F1B2BBAF14C008E50B8 /* IntroScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18947F1A2BBAF130008E50B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18947F212BBAFC05008E50B8 /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18947F1E2BBAF508008E50B8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18947F1F2BBAF52B008E50B8 /* Constants.swift */,
+				18947F2C2BBBD4B0008E50B8 /* View+Extentions.swift */,
+				183053032BC1693D009F961D /* DarkMode+Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		18947F232BBBD12F008E50B8 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				18947F242BBBD13F008E50B8 /* Recents.swift */,
+				18947F262BBBD14B008E50B8 /* Search.swift */,
+				18947F282BBBD157008E50B8 /* Graphs.swift */,
+				183053012BBFCB42009F961D /* AllApps.swift */,
+				18947F2A2BBBD167008E50B8 /* Settings.swift */,
+			);
+			path = TabView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +200,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				18947EF22BBAF007008E50B8 /* ContentView.swift in Sources */,
+				18947F1C2BBAF14C008E50B8 /* IntroScreen.swift in Sources */,
+				18947F222BBAFC05008E50B8 /* Tab.swift in Sources */,
 				18947EF02BBAF007008E50B8 /* iOS_FinalApp.swift in Sources */,
+				18947F292BBBD157008E50B8 /* Graphs.swift in Sources */,
+				18947F252BBBD13F008E50B8 /* Recents.swift in Sources */,
+				18947F2B2BBBD167008E50B8 /* Settings.swift in Sources */,
+				18947F202BBAF52B008E50B8 /* Constants.swift in Sources */,
+				18947F272BBBD14B008E50B8 /* Search.swift in Sources */,
+				18947F2D2BBBD4B0008E50B8 /* View+Extentions.swift in Sources */,
+				183053042BC1693D009F961D /* DarkMode+Helpers.swift in Sources */,
+				183053022BBFCB42009F961D /* AllApps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
